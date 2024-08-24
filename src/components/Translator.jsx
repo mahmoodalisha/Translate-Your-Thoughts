@@ -15,8 +15,8 @@ const Translator = () => {
         method: 'POST',
         url: 'https://microsoft-translator-text.p.rapidapi.com/translate',
         headers: {
-          'x-rapidapi-host': 'microsoft-translator-text.p.rapidapi.com',
-          'x-rapidapi-key': '61b67c97c8msh5ae9831a348ae09p13e3d5jsn8b5a4f6dbec5',
+          'x-rapidapi-host': process.env.REACT_APP_RAPIDAPI_HOST,
+          'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
           'Content-Type': 'application/json'
         },
         data: [
