@@ -27,7 +27,7 @@ Simple web application that allows users to translate text between different lan
 
 1. **Clone the Repository**
 
-2. git clone https://github.com/yourusername/language-translator.git
+2. git clone https://github.com/mahmoodalisha/Translate-Your-Thought.git
 
 3. cd translate-your-thoughts
 
